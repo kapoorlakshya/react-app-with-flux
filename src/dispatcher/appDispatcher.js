@@ -11,6 +11,6 @@
  * A singleton that operates as the central hub for application updates.
  */
 
- var Dispathcer = require('requireflux').Dispatcher;
+ var Dispathcer = require('flux').Dispatcher;
 
  module.exports = new Dispathcer();
